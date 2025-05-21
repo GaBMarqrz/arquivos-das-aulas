@@ -5,7 +5,7 @@ programa
 	{
 		inteiro mult
 		
-		para(inteiro n = 0; n <= 10; n ++){
+		para(inteiro n = 10; n >= 0; n --){
 			para(inteiro o = 0; o <= 10; o ++){
 				mult = n * o
 				escreva(n, " x ", o, " = ", mult, "\n")
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 70; 
+ * @POSICAO-CURSOR = 77; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

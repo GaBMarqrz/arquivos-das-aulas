@@ -1,17 +1,15 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
-		inteiro mult
-		
-		para(inteiro n = 0; n <= 10; n ++){
-			para(inteiro o = 0; o <= 10; o ++){
-				mult = n * o
-				escreva(n, " x ", o, " = ", mult, "\n")
-			}
-			escreva("\n")
-		}
+		real aresta, volume, cubo
+		escreva("Bora calcular o volume de um quadrado")
+		leia(aresta)
+
+		cubo = mat.potencia(aresta, 3.0)
+		volume = cubo
+		escreva("\n", volume, "O volume do cubo é ", volume)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 70; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

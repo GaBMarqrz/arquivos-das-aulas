@@ -3,15 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro mult
-		
-		para(inteiro n = 0; n <= 10; n ++){
-			para(inteiro o = 0; o <= 10; o ++){
-				mult = n * o
-				escreva(n, " x ", o, " = ", mult, "\n")
-			}
-			escreva("\n")
-		}
+		real conducao, total
+         
+		escreva("O valor da Condução é:")
+		leia(conducao)
+
+		total = conducao * 30
+
+		escreva("O valor gasto no final do mês é: ", total)
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 70; 
+ * @POSICAO-CURSOR = 161; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,15 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro mult
+	
+	inteiro idade = 18 
+
+	escreva("Me diga sua idade: ")
+	leia(idade)
+
+	se(idade >= 18){
+		escreva("Maior de idade")
+	}senao{
+		escreva("Menor de idade")
+	}
+
+
+
+
 		
-		para(inteiro n = 0; n <= 10; n ++){
-			para(inteiro o = 0; o <= 10; o ++){
-				mult = n * o
-				escreva(n, " x ", o, " = ", mult, "\n")
-			}
-			escreva("\n")
-		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 70; 
+ * @POSICAO-CURSOR = 106; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
