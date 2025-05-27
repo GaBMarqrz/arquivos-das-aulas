@@ -3,16 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n
-		inteiro total = 0
-		para(n = 0; n <= 10; n ++){
-
-			enquanto(n <= 10){
-				total = total + n
-				escreva(n + " = " + total + "\n")
-				pare
-				
+		inteiro mult
+		
+		para(inteiro n = 7; n <= 7; n ++){
+			para(inteiro o = 0; o <= 10; o ++){
+				mult = n * o
+				escreva(n, " x ", o, " = ", mult, "\n")
 			}
+			escreva("\n")
 		}
 	}
 }
@@ -21,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 77; 
+ * @POSICAO-CURSOR = 116; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

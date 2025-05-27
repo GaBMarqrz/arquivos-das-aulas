@@ -3,16 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n
-		inteiro total = 0
-		para(n = 0; n <= 10; n ++){
-
-			enquanto(n <= 10){
-				total = total + n
-				escreva(n + " = " + total + "\n")
-				pare
-				
+		inteiro mult
+		
+		para(inteiro n = 10; n >= 0; n --){
+			para(inteiro o = 0; o <= 10; o ++){
+				mult = n * o
+				escreva(n, " x ", o, " = ", mult, "\n")
 			}
+			escreva("\n")
 		}
 	}
 }
